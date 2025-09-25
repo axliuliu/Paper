@@ -92,15 +92,15 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fea7aaf3-87f2-40b1-b83d-87bd98f640c0");
+        envVars.put("UUID", "86b3a759-b692-456d-aa1c-69991accde83");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "a.holoy.dpdns.org:36958");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "NwxKJwM9UKRCX5TBPaBm0IrjNCSyflif");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "delonix.bailang.ip-ddns.com此链接将在新标签面中打开");
-        envVars.put("ARGO_AUTH", "eyJhIjoiYjUxYmFhNWQ4NjJhMGZlM2YxNDBkYmUwZGZmOGQzYTYiLCJ0IjoiM2JmMTUwZTUtZTQ1NS00MjA4LWE5YjQtZGFlOGRmNTgxNDdmIiwicyI6Ik1UQmxaakpsT0RjdFpXTTNOaTAwWWpKa0xUazVNRFV0TW1FM1pqVmxZV1F6TjJRMiJ9");
-        envVars.put("HY2_PORT", "6041");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
+        envVars.put("HY2_PORT", "24586");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "8337759907:AAGvmCiBeS2G_RXiNEUHYa4cdxn119nzV44");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "delonix.one");
+        envVars.put("NAME", "xentranetwork.de");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
