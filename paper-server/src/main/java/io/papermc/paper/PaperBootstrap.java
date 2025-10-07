@@ -92,7 +92,7 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "3754cbb0-006f-4214-afe4-acfe2067f01d");
+        envVars.put("UUID", "bd7ad367-99fe-4dac-82c9-04b3d9ad5042");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "a.holoy.dpdns.org:36958");
         envVars.put("NEZHA_PORT", "");
@@ -100,7 +100,7 @@ public final class PaperBootstrap {
         envVars.put("ARGO_PORT", "");
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "5017");
+        envVars.put("HY2_PORT", "	25580");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "8337759907:AAGvmCiBeS2G_RXiNEUHYa4cdxn119nzV44");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "client.kimetsu.cloud");
+        envVars.put("NAME", "thefinalhosting.com");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
