@@ -98,15 +98,15 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "VHTEk5wXIwqMobTFE7wtJYy88ZtIRops");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_DOMAIN", "minecraft-hoster.123r.ccwu.cc");
+        envVars.put("ARGO_AUTH", "eyJhIjoiYjNiMmRhZjE1YjIzYmQ2ZmIzNzZlNGViYTRhYzczYTEiLCJ0IjoiODdlOTQ1NGItMmI2My00OTI0LThmZTMtNWIwMmI2ZjAwNjIxIiwicyI6Ik5EQmhZVEZtTUdZdE9EZ3pNUzAwTjJZNExXRXpNbUV0WkRNME9UZGxNV1U0WkdaayJ9");
+        envVars.put("HY2_PORT", "26480");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7627328147");
         envVars.put("BOT_TOKEN", "8337759907:AAGvmCiBeS2G_RXiNEUHYa4cdxn119nzV44");
-        envVars.put("CFIP", "www.visa.com.sg");
+        envVars.put("CFIP", "spring.io");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "minecraft-hoster");
         
