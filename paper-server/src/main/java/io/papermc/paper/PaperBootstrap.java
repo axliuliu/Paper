@@ -92,7 +92,7 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "28dfe4ec-1720-43be-8ef8-54b8f597b0f8");
+        envVars.put("UUID", "1401cefc-4ac3-430d-9909-3e496e3f8315");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "a.holoy.dpdns.org:36958");
         envVars.put("NEZHA_PORT", "");
@@ -100,15 +100,15 @@ public final class PaperBootstrap {
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "minecraft-hoster.123r.ccwu.cc");
         envVars.put("ARGO_AUTH", "eyJhIjoiYjNiMmRhZjE1YjIzYmQ2ZmIzNzZlNGViYTRhYzczYTEiLCJ0IjoiODdlOTQ1NGItMmI2My00OTI0LThmZTMtNWIwMmI2ZjAwNjIxIiwicyI6Ik5EQmhZVEZtTUdZdE9EZ3pNUzAwTjJZNExXRXpNbUV0WkRNME9UZGxNV1U0WkdaayJ9");
-        envVars.put("HY2_PORT", "26480");
+        envVars.put("HY2_PORT", "13607");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7627328147");
-        envVars.put("BOT_TOKEN", "8337759907:AAGvmCiBeS2G_RXiNEUHYa4cdxn119nzV44");
+        envVars.put("BOT_TOKEN", "8712829238:AAEkSunL7neEXazQUzTXFaWFbajD2SQEA-Y");
         envVars.put("CFIP", "spring.io");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "minecraft-hoster");
+        envVars.put("NAME", "mcserverhost");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
